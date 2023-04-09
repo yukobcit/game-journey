@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .game-journey {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .my-game-list {
+    flex: 0 0 300px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .jornal-window {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .game-journey {
+      flex-direction: column;
+    }
+    
+    .my-game-list {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .jornal-window {
+      width: 100%;
+    }
+  }
+  

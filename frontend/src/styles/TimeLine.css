@@ -1,0 +1,100 @@
+.timeline-journal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .clear-filter-button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .clear-filter-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .timeline-journal__card {
+    background-color: #fff;
+    padding: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 4px #ccc;
+  }
+  
+  .timeline-journal__card:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px #ccc;
+  }
+  
+  .timeline-journal__content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .timeline-journal__game-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .timeline-journal__text {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .timeline-journal__date {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .pagination__buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pagination__button {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .pagination__button:hover:not(:disabled) {
+    background-color: #ddd;
+  }
+  
+  .pagination__button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pagination__button--active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .pagination__button--active:hover:not(:disabled) {
+    background-color: #0062cc;
+  }
+  

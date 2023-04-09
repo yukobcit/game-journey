@@ -1,0 +1,70 @@
+.jornal-single {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .jornal-single h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .jornal-single-entry {
+    margin-bottom: 10px;
+  }
+  
+  .jornal-single form {
+    margin-bottom: 10px;
+  }
+  
+  .jornal-single label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .jornal-single textarea {
+    font-size: 16px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .jornal-single button {
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .jornal-single button:hover {
+    background-color: #0062cc;
+  }
+  
+  .jornal-single .jornal-single-jornals {
+    margin-top: 20px;
+  }
+  
+  .jornal-single .jornal-single-jornal {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .jornal-records .jornal-record-even {
+    background-color: lightblue;
+  }
+  
+  .jornal-records .jornal-record-odd {
+    background-color: lightgreen;
+  }
+  
+  .jornal-single .jornal-single-jornal-played-at {
+    font-size: 14px;
+    color: #666;
+  }
+  

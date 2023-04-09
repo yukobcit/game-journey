@@ -1,0 +1,39 @@
+.form {
+    background-color: #283593;
+    color: #fff;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form input[type="text"],
+  .form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .form button[type="submit"] {
+    background-color: #fff;
+    color: #283593;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form button[type="submit"]:hover {
+    background-color: #e8e8e8;
+  }
+  

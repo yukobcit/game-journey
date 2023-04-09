@@ -1,0 +1,61 @@
+.my-container {
+    padding: 20px;
+  }
+  
+  .my-games-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .my-game-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  
+  .my-game-info {
+    flex: 1;
+  }
+  
+  .my-game-name {
+    margin-top: 0;
+  }
+  
+  .my-game-company,
+  .my-game-console,
+  .my-game-description,
+  .my-game-release-date {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .my-game-form {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .journal-entry {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  .add-game-btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .add-game-btn:hover {
+    background-color: #0062cc;
+  }
+  
